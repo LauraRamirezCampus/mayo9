@@ -1,0 +1,107 @@
+{
+    "reclutas": [
+        {
+            "id":1 ,
+            "nombre":"laura" ,
+            "edad": 16,
+            "telefono":3202704183 ,
+            "email": "laura@gmail.com",
+            "direccion":"carrera 15-50",
+            "fecha_de_nacimiento":"27/09/2007",
+            "numero_de_identificacion":1005369609,
+            "fecha_de_ingreso":"23/01/2023",
+            "teamId":1
+            
+
+        },
+        {
+            "id":2 ,
+            "nombre":"jhon",
+            "edad":20,
+            "telefono":302291876 ,
+            "email": "jhonferrer@gmail.com",
+            "direccion":"avenida rosita",
+            "fecha_de _nacimiento":"10/09/2003",
+            "numero_de_identificacion":10987635,
+            "fecha_de_ingreso":"23/04/2023",
+            "teamId":2
+            
+
+        },
+        {
+            "id":3 ,
+            "nombre":"fabian",
+            "edad":21,
+            "telefono":321291876 ,
+            "email": "fabin@gmail.com",
+            "direccion":"avenida rosita",
+            "fecha_de_nacimiento":"10/09/2003",
+            "numero_de_identificacion":10987635,
+            "fecha_de_ingreso":"23/04/2023",
+            "teamId":1
+            
+
+        }
+    
+    ],
+    "Team": [
+        {
+            "id":1,
+            "nombre":"sputnik" ,
+            "trainer":"carlos"
+        },
+        {
+            "id": 2,
+            "nombre":"apolo" ,
+            "trainer":"vermen"
+        }
+        
+    ],
+    "skill":[
+        {
+            "id":1,
+            "nombre":"fav"
+        },
+        {
+            "id":2 ,
+            "nombre":"div" 
+        }
+    ],
+    "modulo_skill":[
+        {
+            "id":1,
+            "nombre":"first",
+            "skillId": 1
+
+        },{
+            "id":2,
+            "nombre":"tree",
+            "skillId": 1
+
+        },
+        {
+            "id":3,
+            "nombre":"second",
+            "skillId": 2
+
+        }
+        
+    ],
+    "evaluacion":[
+        {
+            "id_recluta":1,
+            "id_modulo": "first",
+            "nota": 46
+        },
+        {
+            "id_recluta":2,
+            "id_modulo": "second",
+            "nota": 49
+        },
+        {
+            "id_recluta":3,
+            "id_modulo": "first",
+            "nota": 20
+        }
+    ]
+}
